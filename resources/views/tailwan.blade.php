@@ -65,7 +65,7 @@
                             <button type="button" class="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
                                 <span class="absolute -inset-1.5"></span>
                                 <span class="sr-only">Open user menu</span>
-                                <img class="h-8 w-8 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                                <img class="h-8 w-8 rounded-full" src="/assets/images/s4.jpg" alt="">
                             </button>
                         </div>
 
@@ -103,124 +103,64 @@
     </nav>
     {{-- navicate bar header --}}
 
-    <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
-        <div class="sm:mx-auto sm:w-full sm:max-w-sm">
-            <img class="mx-auto h-10 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="Your Company">
-            <h2 class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Sign in to your account</h2>
-        </div>
-
-        <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-            <form class="space-y-6" action="#" method="POST">
-                <div>
-                    <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Email address</label>
-                    <div class="mt-2">
-                        <input id="email" name="email" type="email" autocomplete="email" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+    <div class="bg-white py-24 sm:py-32">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            <div class="mx-auto max-w-2xl lg:text-center">
+                <h2 class="text-base font-semibold leading-7 text-indigo-600">Deploy faster</h2>
+                <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Everything you need to deploy your app</p>
+                <p class="mt-6 text-lg leading-8 text-gray-600">Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum pulvinar et feugiat blandit at. In mi viverra elit nunc.</p>
+            </div>
+            <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
+                <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
+                    <div class="relative pl-16">
+                        <dt class="text-base font-semibold leading-7 text-gray-900">
+                            <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                                <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z" />
+                                </svg>
+                            </div>
+                            Push to deploy
+                        </dt>
+                        <dd class="mt-2 text-base leading-7 text-gray-600">Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.</dd>
                     </div>
-                </div>
-
-                <div>
-                    <div class="flex items-center justify-between">
-                        <label for="password" class="block text-sm font-medium leading-6 text-gray-900">Password</label>
-                        <div class="text-sm">
-                            <a href="#" class="font-semibold text-indigo-600 hover:text-indigo-500">Forgot password?</a>
-                        </div>
+                    <div class="relative pl-16">
+                        <dt class="text-base font-semibold leading-7 text-gray-900">
+                            <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                                <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+                                </svg>
+                            </div>
+                            SSL certificates
+                        </dt>
+                        <dd class="mt-2 text-base leading-7 text-gray-600">Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.</dd>
                     </div>
-                    <div class="mt-2">
-                        <input id="password" name="password" type="password" autocomplete="current-password" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                    <div class="relative pl-16">
+                        <dt class="text-base font-semibold leading-7 text-gray-900">
+                            <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                                <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" />
+                                </svg>
+                            </div>
+                            Simple queues
+                        </dt>
+                        <dd class="mt-2 text-base leading-7 text-gray-600">Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.</dd>
                     </div>
-                </div>
-
-                <div>
-                    <button type="submit" class="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Sign in</button>
-                </div>
-            </form>
-
-            <p class="mt-10 text-center text-sm text-gray-500">
-                Not a member?
-                <a href="#" class="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">Start a 14 day free trial</a>
-            </p>
-        </div>
-    </div>
-    {{-- form login --}}
-
-    <div>
-        <label id="listbox-label" class="block text-sm font-medium leading-6 text-gray-900">Assigned to</label>
-        <div class="relative mt-2">
-            <button type="button" class="relative w-full cursor-default rounded-md bg-white py-1.5 pl-3 pr-10 text-left text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 sm:text-sm sm:leading-6" aria-haspopup="listbox" aria-expanded="true" aria-labelledby="listbox-label">
-                <span class="flex items-center">
-                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="h-5 w-5 flex-shrink-0 rounded-full">
-                    <span class="ml-3 block truncate">Tom Cook</span>
-                </span>
-                <span class="pointer-events-none absolute inset-y-0 right-0 ml-3 flex items-center pr-2">
-                    <svg class="h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                        <path fill-rule="evenodd" d="M10 3a.75.75 0 01.55.24l3.25 3.5a.75.75 0 11-1.1 1.02L10 4.852 7.3 7.76a.75.75 0 01-1.1-1.02l3.25-3.5A.75.75 0 0110 3zm-3.76 9.2a.75.75 0 011.06.04l2.7 2.908 2.7-2.908a.75.75 0 111.1 1.02l-3.25 3.5a.75.75 0 01-1.1 0l-3.25-3.5a.75.75 0 01.04-1.06z" clip-rule="evenodd" />
-                    </svg>
-                </span>
-            </button>
-
-            <!--
-            Select popover, show/hide based on select state.
-
-            Entering: ""
-              From: ""
-              To: ""
-            Leaving: "transition ease-in duration-100"
-              From: "opacity-100"
-              To: "opacity-0"
-          -->
-            <ul class="absolute z-10 mt-1 max-h-56 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm" tabindex="-1" role="listbox" aria-labelledby="listbox-label" aria-activedescendant="listbox-option-3">
-                <!--
-              Select option, manage highlight styles based on mouseenter/mouseleave and keyboard navigation.
-
-              Highlighted: "bg-indigo-600 text-white", Not Highlighted: "text-gray-900"
-            -->
-                <li class="relative cursor-default select-none py-2 pl-3 pr-9 text-gray-900" id="listbox-option-0" role="option">
-                    <div class="flex items-center">
-                        <img src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="h-5 w-5 flex-shrink-0 rounded-full">
-                        <!-- Selected: "font-semibold", Not Selected: "font-normal" -->
-                        <span class="ml-3 block truncate font-normal">Wade Cooper</span>
+                    <div class="relative pl-16">
+                        <dt class="text-base font-semibold leading-7 text-gray-900">
+                            <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                                <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M7.864 4.243A7.5 7.5 0 0119.5 10.5c0 2.92-.556 5.709-1.568 8.268M5.742 6.364A7.465 7.465 0 004.5 10.5a7.464 7.464 0 01-1.15 3.993m1.989 3.559A11.209 11.209 0 008.25 10.5a3.75 3.75 0 117.5 0c0 .527-.021 1.049-.064 1.565M12 10.5a14.94 14.94 0 01-3.6 9.75m6.633-4.596a18.666 18.666 0 01-2.485 5.33" />
+                                </svg>
+                            </div>
+                            Advanced security
+                        </dt>
+                        <dd class="mt-2 text-base leading-7 text-gray-600">Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.</dd>
                     </div>
-
-                <li class="relative cursor-default select-none py-2 pl-3 pr-9 text-gray-900" id="listbox-option-0" role="option">
-                    <div class="flex items-center">
-                        <img src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="h-5 w-5 flex-shrink-0 rounded-full">
-                        <!-- Selected: "font-semibold", Not Selected: "font-normal" -->
-                        <span class="ml-3 block truncate font-normal">Wade Cooper</span>
-                    </div>
-
-                <li class="relative cursor-default select-none py-2 pl-3 pr-9 text-gray-900" id="listbox-option-0" role="option">
-                    <div class="flex items-center">
-                        <img src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="h-5 w-5 flex-shrink-0 rounded-full">
-                        <!-- Selected: "font-semibold", Not Selected: "font-normal" -->
-                        <span class="ml-3 block truncate font-normal">Wade Cooper</span>
-                    </div>
-
-                <li class="relative cursor-default select-none py-2 pl-3 pr-9 text-gray-900" id="listbox-option-0" role="option">
-                    <div class="flex items-center">
-                        <img src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" class="h-5 w-5 flex-shrink-0 rounded-full">
-                        <!-- Selected: "font-semibold", Not Selected: "font-normal" -->
-                        <span class="ml-3 block truncate font-normal">Wade Cooper</span>
-                    </div>
-
-                    <!--
-                Checkmark, only display for selected option.
-
-                Highlighted: "text-white", Not Highlighted: "text-indigo-600"
-
-
-              -->
-                    <span class="absolute inset-y-0 right-0 flex items-center pr-4 text-indigo-600">
-                        <svg class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                            <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
-                        </svg>
-                    </span>
-                </li>
-
-                <!-- More items... -->
-            </ul>
+                </dl>
+            </div>
         </div>
     </div>
-    {{-- form serch --}}
+    {{-- feature section --}}
 
 
     <!--
@@ -237,7 +177,7 @@
   }
   ```
 -->
-    <div class="bg-gray-100">
+    <div class="bg-white" style="margin-top: -180px">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div class="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
                 <h2 class="text-2xl font-bold text-gray-900">Collections</h2>
@@ -422,7 +362,7 @@
                         <div class="flex items-center">
                             <div class="flex items-center">
                                 <!-- Active: "text-gray-900", Default: "text-gray-200" -->
-                                <svg class="h-5 w-5 flex-shrink-0 text-gray-900" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <svg class="h-5 w-5 flex-shrink-0 text-red-900" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                     <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
                                 </svg>
                                 <svg class="h-5 w-5 flex-shrink-0 text-gray-900" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -602,6 +542,420 @@
     </div>
     {{-- product overview --}}
 
+    <div class="mb-12 flex font-sans mx-auto max-w-2xl items-center sm:px-6 lg:max-w-7xl lg:px-8">
+        <div class="flex-none w-48 relative">
+            <img src="/assets/images/cutegirl.jpg" alt="" class="inset-0 w-full h-full object-cover" loading="lazy" />
+        </div>
+        <form class="flex-auto p-6">
+            <div class="flex flex-wrap">
+                <h1 class="flex-auto text-lg font-semibold text-slate-900">
+                    Utility Jacket
+                </h1>
+                <div class="text-lg font-semibold text-slate-500">
+                    $110.00
+                </div>
+                <div class="w-full flex-none text-sm font-medium text-slate-700 mt-2">
+                    In stock
+                </div>
+            </div>
+            <div class="flex items-baseline mt-4 mb-6 pb-6 border-b border-slate-200">
+                <div class="space-x-1 flex text-sm">
+                    <label>
+                        <input class="sr-only peer" name="size" type="radio" value="xs" checked />
+                        <div class="w-9 h-9 rounded-lg flex items-center justify-center text-slate-700 peer-checked:font-semibold peer-checked:bg-slate-900 peer-checked:text-white">
+                            XS
+                        </div>
+                    </label>
+                    <label>
+                        <input class="sr-only peer" name="size" type="radio" value="s" />
+                        <div class="w-9 h-9 rounded-lg flex items-center justify-center text-slate-700 peer-checked:font-semibold peer-checked:bg-slate-900 peer-checked:text-white">
+                            S
+                        </div>
+                    </label>
+                    <label>
+                        <input class="sr-only peer" name="size" type="radio" value="m" />
+                        <div class="w-9 h-9 rounded-lg flex items-center justify-center text-slate-700 peer-checked:font-semibold peer-checked:bg-slate-900 peer-checked:text-white">
+                            M
+                        </div>
+                    </label>
+                    <label>
+                        <input class="sr-only peer" name="size" type="radio" value="l" />
+                        <div class="w-9 h-9 rounded-lg flex items-center justify-center text-slate-700 peer-checked:font-semibold peer-checked:bg-slate-900 peer-checked:text-white">
+                            L
+                        </div>
+                    </label>
+                    <label>
+                        <input class="sr-only peer" name="size" type="radio" value="xl" />
+                        <div class="w-9 h-9 rounded-lg flex items-center justify-center text-slate-700 peer-checked:font-semibold peer-checked:bg-slate-900 peer-checked:text-white">
+                            XL
+                        </div>
+                    </label>
+                </div>
+            </div>
+            <div class="flex space-x-4 mb-6 text-sm font-medium">
+                <div class="flex-auto flex space-x-4">
+                    <button class="h-10 px-6 font-semibold rounded-md bg-black text-white" type="submit">
+                        Buy now
+                    </button>
+                    <button class="h-10 px-6 font-semibold rounded-md border border-slate-200 text-slate-900" type="button">
+                        Add to bag
+                    </button>
+                </div>
+                <button class="flex-none flex items-center justify-center w-9 h-9 rounded-md text-slate-300 border border-slate-200" type="button" aria-label="Like">
+                    <svg width="20" height="20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" />
+                    </svg>
+                </button>
+            </div>
+            <p class="text-sm text-slate-700">
+                Free shipping on all continental US orders.
+            </p>
+        </form>
+    </div>
+    {{-- girl style --}}
 
+    <div class="mb-6 font-sans mx-auto max-w-2xl items-center sm:px-6 lg:max-w-7xl lg:px-8">
+        <div class="flex gap-x-6 h-44 overflow-scroll">
+            <div col-md>
+                <ul role="list" class="p-6 divide-y divide-slate-200">
+                    <!-- Remove top/bottom padding when first/last child -->
+
+                    <li class="flex py-4 first:pt-0 last:pb-0">
+                        <img class="h-10 w-10 rounded-full" src="/assets/images/cutegirl1.jpg" alt="" />
+                        <div class="ml-3 overflow-hidden">
+                            <p class="text-sm font-medium text-slate-900">Mr. Vangkor Jong</p>
+                            <p class="text-sm text-slate-500 truncate">Vangkorjong937@gmail.com</p>
+                        </div>
+                    </li>
+                    <li class="flex py-4 first:pt-0 last:pb-0">
+                        <img class="h-10 w-10 rounded-full" src="/assets/images/cutegirl1.jpg" alt="" />
+                        <div class="ml-3 overflow-hidden">
+                            <p class="text-sm font-medium text-slate-900">Mr. Vangkor Jong</p>
+                            <p class="text-sm text-slate-500 truncate">Vangkorjong937@gmail.com</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div col-md>
+                <ul role="list" class="p-6 divide-y divide-slate-200">
+                    <!-- Remove top/bottom padding when first/last child -->
+
+                    <li class="flex py-4 first:pt-0 last:pb-0">
+                        <img class="h-10 w-10 rounded-full" src="/assets/images/cutegirl1.jpg" alt="" />
+                        <div class="ml-3 overflow-hidden">
+                            <p class="text-sm font-medium text-slate-900">Mr. Vangkor Jong</p>
+                            <p class="text-sm text-slate-500 truncate">Vangkorjong937@gmail.com</p>
+                        </div>
+                    </li>
+                    <li class="flex py-4 first:pt-0 last:pb-0">
+                        <img class="h-10 w-10 rounded-full" src="/assets/images/cutegirl1.jpg" alt="" />
+                        <div class="ml-3 overflow-hidden">
+                            <p class="text-sm font-medium text-slate-900">Mr. Vangkor Jong</p>
+                            <p class="text-sm text-slate-500 truncate">Vangkorjong937@gmail.com</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div col-md>
+                <ul role="list" class="p-6 divide-y divide-slate-200">
+                    <!-- Remove top/bottom padding when first/last child -->
+
+                    <li class="flex py-4 first:pt-0 last:pb-0">
+                        <img class="h-10 w-10 rounded-full" src="/assets/images/cutegirl1.jpg" alt="" />
+                        <div class="ml-3 overflow-hidden">
+                            <p class="text-sm font-medium text-slate-900">Mr. Vangkor Jong</p>
+                            <p class="text-sm text-slate-500 truncate">Vangkorjong937@gmail.com</p>
+                        </div>
+                    </li>
+                    <li class="flex py-4 first:pt-0 last:pb-0">
+                        <img class="h-10 w-10 rounded-full" src="/assets/images/cutegirl1.jpg" alt="" />
+                        <div class="ml-3 overflow-hidden">
+                            <p class="text-sm font-medium text-slate-900">Mr. Vangkor Jong</p>
+                            <p class="text-sm text-slate-500 truncate">Vangkorjong937@gmail.com</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div col-md>
+                <ul role="list" class="p-6 divide-y divide-slate-200">
+                    <!-- Remove top/bottom padding when first/last child -->
+
+                    <li class="flex py-4 first:pt-0 last:pb-0">
+                        <img class="h-10 w-10 rounded-full" src="/assets/images/cutegirl1.jpg" alt="" />
+                        <div class="ml-3 overflow-hidden">
+                            <p class="text-sm font-medium text-slate-900">Mr. Vangkor Jong</p>
+                            <p class="text-sm text-slate-500 truncate">Vangkorjong937@gmail.com</p>
+                        </div>
+                    </li>
+                    <li class="flex py-4 first:pt-0 last:pb-0">
+                        <img class="h-10 w-10 rounded-full" src="/assets/images/cutegirl1.jpg" alt="" />
+                        <div class="ml-3 overflow-hidden">
+                            <p class="text-sm font-medium text-slate-900">Mr. Vangkor Jong</p>
+                            <p class="text-sm text-slate-500 truncate">Vangkorjong937@gmail.com</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div col-md>
+                <ul role="list" class="p-6 divide-y divide-slate-200">
+                    <!-- Remove top/bottom padding when first/last child -->
+
+                    <li class="flex py-4 first:pt-0 last:pb-0">
+                        <img class="h-10 w-10 rounded-full" src="/assets/images/cutegirl1.jpg" alt="" />
+                        <div class="ml-3 overflow-hidden">
+                            <p class="text-sm font-medium text-slate-900">Mr. Vangkor Jong</p>
+                            <p class="text-sm text-slate-500 truncate">Vangkorjong937@gmail.com</p>
+                        </div>
+                    </li>
+                    <li class="flex py-4 first:pt-0 last:pb-0">
+                        <img class="h-10 w-10 rounded-full" src="/assets/images/cutegirl1.jpg" alt="" />
+                        <div class="ml-3 overflow-hidden">
+                            <p class="text-sm font-medium text-slate-900">Mr. Vangkor Jong</p>
+                            <p class="text-sm text-slate-500 truncate">Vangkorjong937@gmail.com</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div col-md>
+                <ul role="list" class="p-6 divide-y divide-slate-200">
+                    <!-- Remove top/bottom padding when first/last child -->
+
+                    <li class="flex py-4 first:pt-0 last:pb-0">
+                        <img class="h-10 w-10 rounded-full" src="/assets/images/cutegirl1.jpg" alt="" />
+                        <div class="ml-3 overflow-hidden">
+                            <p class="text-sm font-medium text-slate-900">Mr. Vangkor Jong</p>
+                            <p class="text-sm text-slate-500 truncate">Vangkorjong937@gmail.com</p>
+                        </div>
+                    </li>
+                    <li class="flex py-4 first:pt-0 last:pb-0">
+                        <img class="h-10 w-10 rounded-full" src="/assets/images/cutegirl1.jpg" alt="" />
+                        <div class="ml-3 overflow-hidden">
+                            <p class="text-sm font-medium text-slate-900">Mr. Vangkor Jong</p>
+                            <p class="text-sm text-slate-500 truncate">Vangkorjong937@gmail.com</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div col-md>
+                <ul role="list" class="p-6 divide-y divide-slate-200">
+                    <!-- Remove top/bottom padding when first/last child -->
+
+                    <li class="flex py-4 first:pt-0 last:pb-0">
+                        <img class="h-10 w-10 rounded-full" src="/assets/images/cutegirl1.jpg" alt="" />
+                        <div class="ml-3 overflow-hidden">
+                            <p class="text-sm font-medium text-slate-900">Mr. Vangkor Jong</p>
+                            <p class="text-sm text-slate-500 truncate">Vangkorjong937@gmail.com</p>
+                        </div>
+                    </li>
+                    <li class="flex py-4 first:pt-0 last:pb-0">
+                        <img class="h-10 w-10 rounded-full" src="/assets/images/cutegirl1.jpg" alt="" />
+                        <div class="ml-3 overflow-hidden">
+                            <p class="text-sm font-medium text-slate-900">Mr. Vangkor Jong</p>
+                            <p class="text-sm text-slate-500 truncate">Vangkorjong937@gmail.com</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div col-md>
+                <ul role="list" class="p-6 divide-y divide-slate-200">
+                    <!-- Remove top/bottom padding when first/last child -->
+
+                    <li class="flex py-4 first:pt-0 last:pb-0">
+                        <img class="h-10 w-10 rounded-full" src="/assets/images/cutegirl1.jpg" alt="" />
+                        <div class="ml-3 overflow-hidden">
+                            <p class="text-sm font-medium text-slate-900">Mr. Vangkor Jong</p>
+                            <p class="text-sm text-slate-500 truncate">Vangkorjong937@gmail.com</p>
+                        </div>
+                    </li>
+                    <li class="flex py-4 first:pt-0 last:pb-0">
+                        <img class="h-10 w-10 rounded-full" src="/assets/images/cutegirl1.jpg" alt="" />
+                        <div class="ml-3 overflow-hidden">
+                            <p class="text-sm font-medium text-slate-900">Mr. Vangkor Jong</p>
+                            <p class="text-sm text-slate-500 truncate">Vangkorjong937@gmail.com</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    {{-- bootstrap --}}
+
+    <div class="mb-10 flex font-sans mx-auto max-w-2xl items-center sm:px-6 lg:max-w-7xl lg:px-8">
+        <div class="overflow-x-scroll w-auto ">
+            <ul role="list" class="d-flex gap-x-8 p-6 divide-y divide-slate-200">
+                <!-- Remove top/bottom padding when first/last child -->
+                <li class="flex py-4 first:pt-0 last:pb-0">
+                    <img class="h-10 w-10 rounded-full" src="/assets/images/cutegirl1.jpg" alt="" />
+                    <div class="ml-3 overflow-hidden">
+                        <p class="text-sm font-medium text-slate-900">Mr. Vangkor Jong</p>
+                        <p class="text-sm text-slate-500 truncate">Vangkorjong937@gmail.com</p>
+                    </div>
+                </li>
+                <li class="flex py-4 first:pt-0 last:pb-0">
+                    <img class="h-10 w-10 rounded-full" src="/assets/images/cutegirl1.jpg" alt="" />
+                    <div class="ml-3 overflow-hidden">
+                        <p class="text-sm font-medium text-slate-900">Mr. Vangkor Jong</p>
+                        <p class="text-sm text-slate-500 truncate">Vangkorjong937@gmail.com</p>
+                    </div>
+                </li>
+                <li class="flex py-4 first:pt-0 last:pb-0">
+                    <img class="h-10 w-10 rounded-full" src="/assets/images/cutegirl1.jpg" alt="" />
+                    <div class="ml-3 overflow-hidden">
+                        <p class="text-sm font-medium text-slate-900">Mr. Vangkor Jong</p>
+                        <p class="text-sm text-slate-500 truncate">Vangkorjong937@gmail.com</p>
+                    </div>
+                </li>
+                <li class="flex py-4 first:pt-0 last:pb-0">
+                    <img class="h-10 w-10 rounded-full" src="/assets/images/cutegirl1.jpg" alt="" />
+                    <div class="ml-3 overflow-hidden">
+                        <p class="text-sm font-medium text-slate-900">Mr. Vangkor Jong</p>
+                        <p class="text-sm text-slate-500 truncate">Vangkorjong937@gmail.com</p>
+                    </div>
+                </li>
+                <li class="flex py-4 first:pt-0 last:pb-0">
+                    <img class="h-10 w-10 rounded-full" src="/assets/images/cutegirl1.jpg" alt="" />
+                    <div class="ml-3 overflow-hidden">
+                        <p class="text-sm font-medium text-slate-900">Mr. Vangkor Jong</p>
+                        <p class="text-sm text-slate-500 truncate">Vangkorjong937@gmail.com</p>
+                    </div>
+                </li>
+                <li class="flex py-4 first:pt-0 last:pb-0">
+                    <img class="h-10 w-10 rounded-full" src="/assets/images/cutegirl1.jpg" alt="" />
+                    <div class="ml-3 overflow-hidden">
+                        <p class="text-sm font-medium text-slate-900">Mr. Vangkor Jong</p>
+                        <p class="text-sm text-slate-500 truncate">Vangkorjong937@gmail.com</p>
+                    </div>
+                </li>
+                <li class="flex py-4 first:pt-0 last:pb-0">
+                    <img class="h-10 w-10 rounded-full" src="/assets/images/cutegirl1.jpg" alt="" />
+                    <div class="ml-3 overflow-hidden">
+                        <p class="text-sm font-medium text-slate-900">Mr. Vangkor Jong</p>
+                        <p class="text-sm text-slate-500 truncate">Vangkorjong937@gmail.com</p>
+                    </div>
+                </li>
+                <li class="flex py-4 first:pt-0 last:pb-0">
+                    <img class="h-10 w-10 rounded-full" src="/assets/images/cutegirl1.jpg" alt="" />
+                    <div class="ml-3 overflow-hidden">
+                        <p class="text-sm font-medium text-slate-900">Mr. Vangkor Jong</p>
+                        <p class="text-sm text-slate-500 truncate">Vangkorjong937@gmail.com</p>
+                    </div>
+                </li>
+                <li class="flex py-4 first:pt-0 last:pb-0">
+                    <img class="h-10 w-10 rounded-full" src="/assets/images/cutegirl1.jpg" alt="" />
+                    <div class="ml-3 overflow-hidden">
+                        <p class="text-sm font-medium text-slate-900">Mr. Vangkor Jong</p>
+                        <p class="text-sm text-slate-500 truncate">Vangkorjong937@gmail.com</p>
+                    </div>
+                </li>
+                <li class="flex py-4 first:pt-0 last:pb-0">
+                    <img class="h-10 w-10 rounded-full" src="/assets/images/cutegirl1.jpg" alt="" />
+                    <div class="ml-3 overflow-hidden">
+                        <p class="text-sm font-medium text-slate-900">Mr. Vangkor Jong</p>
+                        <p class="text-sm text-slate-500 truncate">Vangkorjong937@gmail.com</p>
+                    </div>
+                </li>
+                <li class="flex py-4 first:pt-0 last:pb-0">
+                    <img class="h-10 w-10 rounded-full" src="/assets/images/cutegirl1.jpg" alt="" />
+                    <div class="ml-3 overflow-hidden">
+                        <p class="text-sm font-medium text-slate-900">Mr. Vangkor Jong</p>
+                        <p class="text-sm text-slate-500 truncate">Vangkorjong937@gmail.com</p>
+                    </div>
+                </li>
+                <li class="flex py-4 first:pt-0 last:pb-0">
+                    <img class="h-10 w-10 rounded-full" src="/assets/images/cutegirl1.jpg" alt="" />
+                    <div class="ml-3 overflow-hidden">
+                        <p class="text-sm font-medium text-slate-900">Mr. Vangkor Jong</p>
+                        <p class="text-sm text-slate-500 truncate">Vangkorjong937@gmail.com</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        {{-- horro --}}
+        <div class="overflow-y-auto h-52 w-full">
+            <ul role="list" class="p-6 divide-y divide-slate-200">
+                <!-- Remove top/bottom padding when first/last child -->
+                <li class="flex py-4 first:pt-0 last:pb-0">
+                    <img class="h-10 w-10 rounded-full" src="/assets/images/cutegirl1.jpg" alt="" />
+                    <div class="ml-3 overflow-hidden">
+                        <p class="text-sm font-medium text-slate-900">Mr. Vangkor Jong</p>
+                        <p class="text-sm text-slate-500 truncate">Vangkorjong937@gmail.com</p>
+                    </div>
+                </li>
+                <li class="flex py-4 first:pt-0 last:pb-0">
+                    <img class="h-10 w-10 rounded-full" src="/assets/images/cutegirl1.jpg" alt="" />
+                    <div class="ml-3 overflow-hidden">
+                        <p class="text-sm font-medium text-slate-900">Mr. Vangkor Jong</p>
+                        <p class="text-sm text-slate-500 truncate">Vangkorjong937@gmail.com</p>
+                    </div>
+                </li>
+                <li class="flex py-4 first:pt-0 last:pb-0">
+                    <img class="h-10 w-10 rounded-full" src="/assets/images/cutegirl1.jpg" alt="" />
+                    <div class="ml-3 overflow-hidden">
+                        <p class="text-sm font-medium text-slate-900">Mr. Vangkor Jong</p>
+                        <p class="text-sm text-slate-500 truncate">Vangkorjong937@gmail.com</p>
+                    </div>
+                </li>
+                <li class="flex py-4 first:pt-0 last:pb-0">
+                    <img class="h-10 w-10 rounded-full" src="/assets/images/cutegirl1.jpg" alt="" />
+                    <div class="ml-3 overflow-hidden">
+                        <p class="text-sm font-medium text-slate-900">Mr. Vangkor Jong</p>
+                        <p class="text-sm text-slate-500 truncate">Vangkorjong937@gmail.com</p>
+                    </div>
+                </li>
+                <li class="flex py-4 first:pt-0 last:pb-0">
+                    <img class="h-10 w-10 rounded-full" src="/assets/images/cutegirl1.jpg" alt="" />
+                    <div class="ml-3 overflow-hidden">
+                        <p class="text-sm font-medium text-slate-900">Mr. Vangkor Jong</p>
+                        <p class="text-sm text-slate-500 truncate">Vangkorjong937@gmail.com</p>
+                    </div>
+                </li>
+                <li class="flex py-4 first:pt-0 last:pb-0">
+                    <img class="h-10 w-10 rounded-full" src="/assets/images/cutegirl1.jpg" alt="" />
+                    <div class="ml-3 overflow-hidden">
+                        <p class="text-sm font-medium text-slate-900">Mr. Vangkor Jong</p>
+                        <p class="text-sm text-slate-500 truncate">Vangkorjong937@gmail.com</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    {{-- vertical --}}
+
+    <div class="mb-12 flex font-sans mx-auto max-w-2xl items-center sm:px-6 lg:max-w-7xl lg:px-8">
+        <div class="table">
+            <div class="table-header-group ...">
+                <div class="table-row">
+                    <h5 class="table-cell text-left ...">Song</h>
+                    <h5 class="table-cell text-left ...">Artist</h>
+                    <h5 class="table-cell text-left ...">Year</h>
+                </div>
+            </div>
+            <div class="table-row-group">
+                <div class="table-row">
+                    <div class="table-cell ...">The Sliding Mr. Bones (Next Stop, Pottersville)</div>
+                    <div class="table-cell ...">Malcolm Lockyer</div>
+                    <div class="table-cell ...">1961</div>
+                </div>
+                <div class="table-row">
+                    <div class="table-cell ...">Witchy Woman</div>
+                    <div class="table-cell ...">The Eagles</div>
+                    <div class="table-cell ...">1972</div>
+                </div>
+                <div class="table-row">
+                    <div class="table-cell ...">Shining Star</div>
+                    <div class="table-cell ...">Earth, Wind, and Fire</div>
+                    <div class="table-cell ...">1975</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{-- table --}}
 </body>
 </html>
