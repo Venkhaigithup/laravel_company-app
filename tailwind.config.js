@@ -22,6 +22,9 @@ export default {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            colors: {
+                'blueold': '#6EABD5',
+              },
         },
     },
 

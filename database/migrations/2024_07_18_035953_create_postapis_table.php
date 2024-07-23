@@ -11,13 +11,10 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('user1s', function (Blueprint $table) {
+        Schema::create('postapis', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->string('email')->unique();
-            $table->string('password');
-            $table->timestamp('email_verify_at')->nullable();
-            $table->rememberToken();
+            $table->string('name')->default('');
+            $table->string('gender')->default('');
             $table->timestamps();
         });
     }
@@ -27,6 +24,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('user1s');
+        Schema::dropIfExists('postapis');
     }
 };
